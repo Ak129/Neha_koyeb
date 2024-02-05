@@ -5,10 +5,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/ELINA-BOTS/Neha.git /Neha
+  git clone https://github.com/Ak129/neha_bot.git /neha_bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Neha
+  git clone $UPSTREAM_REPO /neha_bot
 fi
 cd /Neha
 pip3 install -U -r requirements.txt
