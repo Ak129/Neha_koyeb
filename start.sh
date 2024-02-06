@@ -11,7 +11,6 @@ else
   git clone $UPSTREAM_REPO /neha_bot
 fi
 cd /neha_bot
-npm install pm2 -g
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
