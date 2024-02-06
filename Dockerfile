@@ -6,6 +6,7 @@ FROM python:3.10.8-slim-buster
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
+RUN npm install pm2 -g
 COPY requirements.txt /requirements.txt
 
 RUN cd /
