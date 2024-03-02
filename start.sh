@@ -5,7 +5,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Ak129/neha_bot.git /neha_bot
+  git clone https://github.com/Ak129/Neha_koyeb.git /Neha_koyeb
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /neha_bot
