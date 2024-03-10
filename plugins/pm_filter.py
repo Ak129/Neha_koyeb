@@ -88,7 +88,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
          text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", GRP_LNK)]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+ETQQOL-XZDwxOWJl")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -1334,7 +1334,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🫵 SUBSCRIBE 🫵', url="https://t.me/Movieshubproo"),
         ],[
-            InlineKeyboardButton('🍀 Movie Search Group 🍀', GRP_LNK)
+            InlineKeyboardButton('🍀 Movie Search Group 🍀', url="https://t.me/+ETQQOL-XZDwxOWJl")
         ],[
             InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/Movieshubproo")
         ],[
