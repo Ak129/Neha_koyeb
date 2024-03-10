@@ -1334,7 +1334,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🫵 SUBSCRIBE 🫵', url="https://t.me/Movieshubproo"),
         ],[
-            InlineKeyboardButton('🍀 Movie Search Group 🍀' GRP_LNK)
+            InlineKeyboardButton('🍀 Movie Search Group 🍀', GRP_LNK)
         ],[
             InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/Movieshubproo")
         ],[
