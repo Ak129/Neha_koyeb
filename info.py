@@ -104,10 +104,10 @@ if 'DYNO' in environ:
     APP_NAME = environ.get('APP_NAME')
 else:
     ON_HEROKU = False
-BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'animohub.apkthugs.com'))
-FQDN = str(getenv('FQDN', 'animohub.apkthugs.com')) if not ON_HEROKU or getenv('FQDN', 'animohub.apkthugs.com') else APP_NAME+'.herokuapp.com'
-URL = "https://animohub.apkthugs.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "http://animohub.apkthugs.com/".format(FQDN, PORT)
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'movieshubproo-apkthugs.koyeb.app '))
+FQDN = str(getenv('FQDN', 'movieshubproo-apkthugs.koyeb.app')) if not ON_HEROKU or getenv('FQDN', 'movieshubproo-apkthugs.koyeb.app') else APP_NAME+'.herokuapp.com'
+URL = "https://movieshubproo-apkthugs.koyeb.app/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "http://movieshubproo-apkthugs.koyeb.app/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -122,9 +122,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://animohub.apkthugs.com/".format(FQDN)
+    URL = "https://movieshubproo-apkthugs.koyeb.app/".format(FQDN)
 else:
-    URL = "http://animohub.apkthugs.com/".format(FQDN)
+    URL = "http://movieshubproo-apkthugs.koyeb.app/".format(FQDN)
 
 
 
