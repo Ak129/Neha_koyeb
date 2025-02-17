@@ -1,0 +1,4 @@
+{
+    "allowed_domains": ["animohubpro.com", "cdn.animohubpro.com"],
+    "external_domains": ["dashboard.smallshort.com", "api.smallshort.com"]
+}
